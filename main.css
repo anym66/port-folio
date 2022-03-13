@@ -183,9 +183,8 @@ body {
 
 .third-main {
     background-color: #000;
-    padding-top: 50px;
-    padding-bottom:50px;
     overflow: hidden;
+    padding: 50px 15px;
 }
 .projet-big-title {
     font-size: 30px;

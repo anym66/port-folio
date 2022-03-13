@@ -2,7 +2,7 @@ const projetsDatas = [
     {
         url : "geekstore",
         name : "GEEKSTORE",
-        resume : "Application de vente de DVD, bluray, jeux vidéos et produits dérivés des mangas et series cultes (espaces des geeks quoi). C'était juste la partie frontend  ",
+        resume : "Application de vente de DVD, bluray, jeux vidéos et produits dérivés des mangas et series cultes (espaces des geeks quoi). C'était juste la partie frontend",
         photos : ['', ''],
         knowledges : "Donc, l'application est entièrement construit en ReactJS, CSS et Twitter bootstrap pour le style. Je me suis vraiment concentré sur le front-end, donc j'ai utilisé Firebase pour gérer la partie backend de l'appli. Ce projet m'a permi surtout de mieux utiliser Redux, qui n'a pas été facile à prendre en main ",
         information : "J'ai construit cette application pendant ma fin de formation sur ReactJS à Orange digital Center (Orange Cameroun). Durant cette formation, j'ai pas seulement appris à coder en ReactJS, mais de penser en ReactJS, à bien utiliser les props, les states, les hooks, Redux, axios pour les appels d'API, et une petite formation de 2 jours sur les méthodes agiles et particulièrement Scrum. j'ai utilisé toutes ces connaissances pour monter ce projet de fin de formation.  "
@@ -28,7 +28,7 @@ const projetsDatas = [
     {
         url : "schooltrack",
         name : "SCHOOL TRACK",
-        resume : "Application de suivi de la scolarité des enfants dès leur entrée à l'école, jusqu'à la fin de leur cursus. Gràce à cette application une personne pourrait continuer son cursus facilement dans n'importe quelle école ",
+        resume : "Application de suivi de la scolarité des enfants dès leur entrée à l'école, jusqu'à la fin de leur cursus. Gràce à cette application une personne pourrait continuer son cursus facilement dans n'importe quelle école",
         photos : ['', ''],
         knowledges : "Les technologies que j'ai utilisées pour cette application sont : ReactJS, Css, bootstrap, Firebase pour le backend. la pricipale difficulté a été au niveau de la modélisation du logicie. étant donné que l'application devait être destiné à un usage massif, j'ai utilisé du No-SQL notamment firestore (Orienté document) ",
         information : "J'ai construit cette application pour la soutenance en vue de l'obtention de ma licence de Technologie à l'institut universitaire de technologies de l'université de Douala. Cette application m'a permise de consiler les connaissances acquises pendant mes 3 années de formation"
