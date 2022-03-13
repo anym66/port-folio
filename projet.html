@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -14,25 +15,29 @@
                 <div class="logo">
                     Yared
                 </div>
-                <div class="nav-bar">
+                <div class="nav-bar" style="font-size: 16px;">
                     <a class="realisation nav-bar-item" href="#">Me contacter</a>
                     <a class="contact nav-bar-item" href="#">Telecharger CV</a>
                 </div>
             </nav>
-            <h1 class="projet-head-title"></h1>
+            <h1 class="projet-head-title" style="margin-top: 50px;"></h1>
             <div class="projet-resume">
                 
             </div>
             <button class="projet-btn" style="margin-bottom: 30px;">SOURCE</button>
-            <div class="information-projet" style="margin-bottom: 40px;">
-                <img src="assets/img/Yared 2.png" class="projet-presentation" alt="paysage">
+            <div class="information-projet" style="margin-bottom: 40px;"  data-aos="slide-left" data-aos-duration = "1000">
+                <div class="container-projet-presentation">
+                    <img src="assets/img/Yared 2.png" class="projet-presentation" alt="paysage">
+                </div>
                 <div class="information-text">
                 </div>
             </div>
-            <div class="information-projet">
+            <div class="information-projet" data-aos="slide-left" data-aos-duration = "1000">
                 <div class="information-text">
                 </div>
-                <img src="assets/img/reseau-social.PNG" class="projet-presentation" alt="paysage">
+                <div class="container-projet-presentation">
+                    <img src="assets/img/reseau-social.PNG" class="projet-presentation" alt="paysage">
+                </div>
             </div>
             <div class="other-projet">
             </div>
@@ -62,5 +67,9 @@
         </div>
     </div>
     <script src="projetDynamic.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
