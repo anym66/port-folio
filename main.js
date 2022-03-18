@@ -127,9 +127,9 @@ class Caroussel {
 
 }
 
-new Caroussel( document.querySelector('#caroussel1'), {
-    slidesVisible : 2
-})
+// new Caroussel( document.querySelector('#caroussel1'), {
+//     slidesVisible : 2
+// })
 
 const form = document.querySelector('.form-contact')
 
