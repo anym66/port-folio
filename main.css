@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: 'Comic Neue', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
