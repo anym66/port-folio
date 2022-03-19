@@ -40,9 +40,9 @@ const projetsDatas = [
 ]
 
 
-let myDataProjet = {}
+let myDataProjet = projetsDatas[0]
 let previousProjet = null
-let nextProjet = null
+let nextProjet = projetsDatas[1]
 
 const urlParams = (params) =>{
     return params.replace(/(?!\w|\s)./g, '').replace('name', '')
