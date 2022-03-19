@@ -87,7 +87,9 @@ const secondPhoto = `
     `
 
 const source = `
-        <a href="${myDataProjet.githubLink}"><button class="projet-btn" style="margin-bottom: 30px;">SOURCE</button></a>
+        <a href="${myDataProjet.githubLink}">
+            <button class="projet-btn" style="margin-bottom: 30px;">SOURCE</button>
+        </a>
     `    
 
 
